@@ -1,7 +1,9 @@
 # 🛡️ Suraksha Setu — Tourist Safety App
 
-A safety companion app for tourists in India.  
-Provides real-time safety alerts, emergency contacts, and location-aware guidance to keep travelers safe.
+> A safety companion app for tourists in India. Provides real-time safety alerts, emergency contacts, SOS features, and location-aware guidance to keep travelers safe in unfamiliar cities.
+
+[![Flutter](https://img.shields.io/badge/Flutter-Dart-02569B?logo=flutter)](https://flutter.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)](https://flutter.dev)
 
 ---
 
@@ -9,10 +11,10 @@ Provides real-time safety alerts, emergency contacts, and location-aware guidanc
 
 Tourists in unfamiliar cities often lack access to:
 - Local emergency numbers and safe zones
-- Real-time safety alerts for their area
+- Real-time safety alerts for their current area
 - Quick SOS features in case of emergencies
 
-**Suraksha Setu** bridges this gap with a simple, fast, and reliable mobile app.
+**Suraksha Setu** bridges this gap with a simple, fast, and reliable mobile app built for Indian tourism.
 
 ---
 
@@ -20,38 +22,34 @@ Tourists in unfamiliar cities often lack access to:
 
 - 🆘 **Quick SOS** — One-tap emergency alert with location sharing
 - 📍 **Safe Zone Mapping** — View tourist-safe areas on an interactive map
-- 🚔 **Emergency Contacts** — Pre-loaded local police, hospitals, and helplines
+- 🚔 **Emergency Contacts** — Pre-loaded local police, hospitals, and helplines by city
 - 🔔 **Safety Alerts** — Real-time notifications for unsafe areas nearby
-- 🌐 **Works Offline** — Core features available without internet
+- 🌐 **Offline Support** — Core features available without internet
 
----
+## 🛠️ Tech Stack
 
-## 🚀 Tech Stack
+| Technology | Purpose |
+|---|---|
+| Flutter / Dart | Cross-platform mobile development |
+| Geolocation APIs | Real-time location tracking |
+| Local Storage | Offline-first data persistence |
+| Maps Integration | Safe zone and route visualization |
 
-- Flutter (Dart) — Cross-platform mobile app
-- Geolocation APIs — Real-time location tracking
-- Local Storage — Offline-first data persistence
-
----
-
-## 🏃 Run Locally
+## 🚀 Run Locally
 
 ```bash
-# Clone the repo
 git clone https://github.com/binoremohapatra/Suraksha-Setu-tourist-safety-app.git
 cd Suraksha-Setu-tourist-safety-app
-
-# Install dependencies
 flutter pub get
-
-# Run the app
 flutter run
 ```
+
+> Requires Flutter SDK 3.x. Run `flutter doctor` to verify your environment.
 
 ---
 
 ## 👨‍💻 Author
 
-**Binore Mohapatra**  
-3rd Semester CSE Student | Flutter & Full-Stack Developer  
+**Binore Mohapatra**
+3rd Year CSE Student @ GGSIPU, Delhi | Flutter & Full-Stack Developer
 [GitHub](https://github.com/binoremohapatra) • [Email](mailto:binoremohapatra@gmail.com)
